@@ -1,18 +1,20 @@
 
 function happyHolidays (){
   return ('Happy holidays!')}
-var name = 'Dianne'
+
 function happyHolidaysTo (name) {
 
   return ('Happy holidays, ${name}!')
 }
-happyHolidaysTo (name)
-var holiday = "Independence Day"
+happyHolidaysTo (Dianne)
+
 function happyHolidayTo (holiday, name) {
 
 return ('Happy ${holiday}, ${name}!')
 }
-var days = "13"
+happyHolidayTo ("Independence Day", "Dianne")
+
 function holidayCountdown (holiday, days) {
   return ('It is ${days} until ${holiday}!')
 }
+holidayCountdown ("Independence Day"; "13")
