@@ -15,6 +15,3 @@ var days = '13';
 function holidayCountdown (holiday, days) {
   return ('It is ${days} until ${holiday},!')
 }
-
-
-
